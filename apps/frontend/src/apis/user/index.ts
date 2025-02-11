@@ -3,7 +3,7 @@
 import { getAuthCookies } from '@/utils/getAuthCookies'
 import { redirect } from 'next/navigation'
 import { ebuddyBEClient } from '../api'
-import { USER } from '@/types/user'
+import { USER } from '@repo/user-config'
 
 /**
  * * Helper function to fetch user data from the backend

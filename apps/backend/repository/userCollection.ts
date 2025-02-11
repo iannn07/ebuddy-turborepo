@@ -1,5 +1,5 @@
 import { db } from '../config/firebaseConfig'
-import { USER } from '../entities/user'
+import { USER } from '@repo/user-config'
 
 const USERS_COLLECTION = 'users_collection'
 

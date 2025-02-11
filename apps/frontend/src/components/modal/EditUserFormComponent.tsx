@@ -6,7 +6,7 @@ import {
   updateUserStart,
 } from '@/store/slices/updateUserSlices'
 import { AppDispatch, RootState } from '@/store/store'
-import { USER } from '@/types/user'
+import { USER } from '@repo/user-config'
 import { valibotResolver } from '@hookform/resolvers/valibot'
 import {
   Alert,

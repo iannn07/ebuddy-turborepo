@@ -1,0 +1,8 @@
+{
+  "name": "@repo/user-config",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.d.ts",
+  "type": "module",
+  "types": "index.d.ts"
+}

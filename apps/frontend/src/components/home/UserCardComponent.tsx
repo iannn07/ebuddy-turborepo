@@ -1,4 +1,4 @@
-import { USER } from '@/types/user'
+import { USER } from '@repo/user-config'
 import {
   Box,
   Card,

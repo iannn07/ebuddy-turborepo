@@ -1,7 +1,7 @@
 'use server'
 
 import { updateEbuddyUser } from '@/apis/user'
-import { USER } from '@/types/user'
+import { USER } from '@repo/user-config'
 import { revalidatePath } from 'next/cache'
 
 export async function updateUserAction(data: USER) {

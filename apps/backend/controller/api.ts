@@ -1,5 +1,5 @@
 import { Request, Response } from 'express'
-import { USER } from '../entities/user'
+import { USER } from '@repo/user-config'
 import {
   fetchAllUsersData,
   fetchUserData,

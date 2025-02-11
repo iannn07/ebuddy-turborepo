@@ -1,7 +1,7 @@
 'use server'
 
 import { getAllEbuddyUsers } from '@/apis/user'
-import { USER } from '@/types/user'
+import { USER } from '@repo/user-config'
 
 export async function fetchUserAction() {
   try {

@@ -28,6 +28,7 @@
     "valibot": "^1.0.0-beta.15"
   },
   "devDependencies": {
+    "@repo/user-config": "*",
     "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",

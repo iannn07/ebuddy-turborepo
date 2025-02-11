@@ -1,10 +1,15 @@
+import dotenv from 'dotenv'
 import admin from 'firebase-admin'
-import serviceAccount from './FIREBASE_SERVICE_ACCOUNT_KEY.json'
+
+dotenv.config()
 
 const updatedServiceAccount = {
-  projectId: serviceAccount.project_id,
-  clientEmail: serviceAccount.client_email,
-  privateKey: serviceAccount.private_key,
+  projectId: process.env.EXPRESS_PUBLIC_FIREBASE_PROJECT_ID,
+  clientEmail: process.env.EXPRESS_PUBLIC_FIREBASE_CLIENT_EMAIL,
+  privateKey: process.env.EXPRESS_PUBLIC_FIREBASE_PRIVATE_KEY?.replace(
+    /\\n/g,
+    '\n'
+  ),
 }
 
 const defaultApp = admin.initializeApp({

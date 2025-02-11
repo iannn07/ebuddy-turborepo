@@ -1,7 +1,7 @@
 'use client'
 
 import { auth } from '@/app/_firebase/config'
-import { USER } from '@/types/user'
+import { USER } from '@repo/user-config'
 import {
   Button,
   Card,
