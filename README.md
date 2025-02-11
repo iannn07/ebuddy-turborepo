@@ -1,16 +1,19 @@
 # Turborepo for EBuddy Frontend & Backend System
 
-## FRONTEND README
+## FRONTEND
 
-[FRONTEND README](apps/frontend/README.md)
+1. [FRONTEND REPO](https://github.com/iannn07/ebuddy-frontend-repo)
+2. [FRONTEND README](apps/frontend/README.md)
 
-## BACKEND README
+## BACKEND
 
-[BACKEND README](apps/backend/README.md)
+1. [BACKEND REPO](https://github.com/iannn07/ebuddy-backend-repo)
+2. [BACKEND README](apps/backend/README.md)
 
 ## CREDENTIALS FOR LOGIN
 
 **EMAIL**: `ian@ebuddy.com`
+
 **PASSWORD**: `ian@ebuddy.com`
 
 ### How To Use
