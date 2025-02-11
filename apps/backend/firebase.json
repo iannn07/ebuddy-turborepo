@@ -1,0 +1,11 @@
+{
+  "functions": {
+    "source": "./lib",
+    "runtime": "nodejs16"
+  },
+  "emulators": {
+    "functions": {
+      "port": 8080
+    }
+  }
+}
