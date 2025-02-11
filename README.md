@@ -12,9 +12,11 @@
 
 ## CREDENTIALS FOR LOGIN
 
-**EMAIL**: `ian@ebuddy.com`
+**EMAIL**: `ebuddy@ebuddy.com`
 
-**PASSWORD**: `ian@ebuddy.com`
+**PASSWORD**: `ebuddy@ebuddy.com`
+
+The `.env` files will be attached to the email
 
 ### How To Use
 
